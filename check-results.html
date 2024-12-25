@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Check Results - Esperanto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Esperanto</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="check-results.html">Check Results</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="results">
+      <h1>Check Your Results</h1>
+      <form id="results-form">
+        <label for="student-id">Enter Student ID:</label>
+        <input type="text" id="student-id" placeholder="Enter ID">
+        <button type="button" onclick="fetchResults()">Check Results</button>
+      </form>
+      <div id="results-output"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

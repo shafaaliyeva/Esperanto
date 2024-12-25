@@ -1,0 +1,145 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Hero Section Styling */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background: #ffffff; /* Set background to white */
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Space between text and image */
+    max-width: 1200px; /* Limit the section width */
+    margin: 0 auto;
+  }
+  
+  
+  
+  .hero-text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .hero-image {
+    flex: 1;
+    width: auto; /* Keep natural width */
+    max-width: 500px; /* Optional: Set a reasonable max size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it displays */
+  }
+  
+  
+  
+  
+  .results {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .results form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #results-output {
+    margin-top: 20px;
+    padding: 10px;
+    background: #eaeaea;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  .hero-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+  }
+  .results {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .results form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  #student-id {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  #results-output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
